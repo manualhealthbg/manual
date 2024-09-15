@@ -1,0 +1,52 @@
+# Compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folders
+env/
+venv/
+
+# Package build files
+build/
+dist/
+*.egg-info/
+
+# PyCharm project settings
+.idea/
+
+# Python bytecode files
+__pycache__/
+*.py[cod]
+
+
+# Test and coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+*.log
+.cache
+.pytest_cache/
+nosetests.xml
+test_results/
+
+# Django specific
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask specific
+instance/
+.webassets-cache
+
+# Scrapy specific
+.scrapy
+
+# Operating system files
+.DS_Store
+Thumbs.db
+

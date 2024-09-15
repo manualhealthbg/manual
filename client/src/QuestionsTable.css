@@ -1,0 +1,24 @@
+.questions-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.questions-table th, .questions-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  vertical-align: top;
+}
+
+.questions-table td ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.questions-table td div {
+  margin-top: 10px;
+}
+
+.questions-table td button {
+  margin-right: 5px;
+}

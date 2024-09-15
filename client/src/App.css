@@ -1,0 +1,71 @@
+/* General styling */
+body, html {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Home Page styles */
+.homepage-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.home-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  background-color: #4CAF50;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+.home-button.fill-quiz {
+  background-color: #ff9800;
+}
+
+.home-button.admin {
+  background-color: #2196F3;
+}
+
+.home-button:hover {
+  background-color: #333;
+}
+
+/* Admin Page styles */
+.admin-page {
+  text-align: center;
+}
+
+.admin-page ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.admin-page li {
+  margin: 10px 0;
+}
+
+.admin-page a {
+  text-decoration: none;
+  color: #333;
+  font-size: 20px;
+}
+
+.admin-page a:hover {
+  color: #ff9800;
+}
